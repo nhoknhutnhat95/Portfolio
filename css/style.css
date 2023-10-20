@@ -1,0 +1,36 @@
+.left-nav {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    overflow-y: scroll;
+}
+
+.left-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-nav li {
+    text-align: center;
+    padding: 10px;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.left-nav a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 200px; /* Adjusted the margin to match the width of the navigation */
+    padding: 20px;
+}
